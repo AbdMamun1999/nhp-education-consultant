@@ -1,0 +1,99 @@
+
+.header-menu ul {
+
+}
+.header-menu ul li {
+  padding: 25px 20px;
+  position: relative;
+  display: inline-block;
+  margin-left: -4px;
+}
+.header-menu ul li a {
+  color: #002147;
+  padding: 8px 0px;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+
+/* dropdown */
+.header-menu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 120%;
+  width: 300px;
+  background: #002147;
+  padding: 20px 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.header-menu ul li ul li {
+  padding: 0;
+  display: block;
+  border: none;
+  margin-left: 0;
+}
+
+.header-menu ul li ul li a {
+  display: block;
+  padding: 5px;
+  color: #C2D7EF !important;
+  text-transform: capitalize;
+}
+
+.header-menu ul li div{
+  opacity: 0;
+  width: 0px;
+  background: #FF0000;
+  transition: .4s;
+
+}
+.header-menu ul li:nth-child(2) div{
+  opacity: 1;
+  width: 100%;
+  background: #FF0000;
+
+}
+.header-menu ul li:nth-child(2) a{
+  opacity: 1;
+  width: 100%;
+  color: #FF0000;
+
+}
+.header-menu ul li:nth-child(2) ul li a{
+  opacity: 1;
+  width: 100%;
+  color: #C2D7EF;
+
+}
+
+/* hover */
+
+.header-menu ul li a:hover {
+  color: #FF0000;
+}
+
+.header-menu ul li:hover ul{
+  top: 100%;
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.header-menu ul li:hover div{
+  opacity: 1;
+  width: 100%;
+  background: #FF0000;
+  border: 1px solid  #FF0000;
+  
+}
+
+
+
+
+
