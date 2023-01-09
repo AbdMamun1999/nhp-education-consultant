@@ -1,0 +1,17 @@
+.choose-country-card {
+  box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 8%);
+}
+
+.choose-country-card:hover {
+  box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 30%);
+}
+
+.personalize-card:hover {
+  background: #002147;
+}
+.personalize-card:hover .header-4 {
+  color: white;
+}
+.personalize-card:hover .para-person {
+  color: white;
+}

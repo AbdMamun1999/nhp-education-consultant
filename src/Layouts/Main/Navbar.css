@@ -1,13 +1,20 @@
-
-.header-menu ul {
-
+.header-menu{
+  display: flex;
+  align-items: center;
 }
+
+
 .header-menu ul li {
   padding: 25px 20px;
   position: relative;
   display: inline-block;
   margin-left: -4px;
 }
+
+.header-menu ul li button{
+  margin-top: 5px;
+}
+
 .header-menu ul li a {
   color: #002147;
   padding: 8px 0px;
@@ -16,6 +23,11 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+
+
+.header-menu ul:last-child li button{
+  
+} 
 
 
 
@@ -53,24 +65,7 @@
   transition: .4s;
 
 }
-.header-menu ul li:nth-child(2) div{
-  opacity: 1;
-  width: 100%;
-  background: #FF0000;
 
-}
-.header-menu ul li:nth-child(2) a{
-  opacity: 1;
-  width: 100%;
-  color: #FF0000;
-
-}
-.header-menu ul li:nth-child(2) ul li a{
-  opacity: 1;
-  width: 100%;
-  color: #C2D7EF;
-
-}
 
 /* hover */
 
@@ -92,6 +87,8 @@
   border: 1px solid  #FF0000;
   
 }
+
+
 
 
 

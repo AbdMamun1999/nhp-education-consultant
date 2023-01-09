@@ -1,12 +1,16 @@
-import React from 'react';
-import Navbar from '../Layouts/Main/Navbar';
+import React from "react";
+import About from "../Layouts/Home/About";
+import ChooseCountry from "../Layouts/Home/ChooseCountry";
+import ParsonalizeCard from "../Layouts/Home/ParsonalizeCard";
 
 const Home = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <ChooseCountry />
+      <ParsonalizeCard />
+      <About />
+    </div>
+  );
 };
 
 export default Home;

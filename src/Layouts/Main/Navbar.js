@@ -2,6 +2,7 @@ import React from "react";
 import NavbarTop from "./NavbarTop";
 import logo from "../../assests/images/nhp-logo.png";
 import "./Navbar.css";
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="header-menu ">
-          <ul>
+          <ul className="hidden lg:block">
             <li>
               <a href="#">Home</a>
               <div></div>
@@ -68,6 +69,13 @@ const Navbar = () => {
             <li>
               <a href="#">Contact</a>
               <div></div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <button>
+                <FiMenu size={30}/>
+              </button>
             </li>
           </ul>
         </div>
