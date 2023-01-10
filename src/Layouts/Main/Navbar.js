@@ -71,13 +71,13 @@ const Navbar = () => {
               <div></div>
             </li>
           </ul>
-          <ul>
+          {/* <ul>
             <li>
               <button>
                 <FiMenu size={30}/>
               </button>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </nav>
     </>

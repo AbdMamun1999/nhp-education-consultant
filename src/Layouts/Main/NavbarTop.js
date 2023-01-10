@@ -8,7 +8,7 @@ import SocialSite from "./SocialSite";
 
 const NavbarTop = () => {
   return (
-    <div className="bg-[#002147]">
+    <div className="bg-[#002147] py-5">
       <div className="w-[78%] mx-auto flex flex-col lg:flex-row justify-between">
         <div className="flex items-center">
           <div className="flex items-center ">
@@ -30,14 +30,14 @@ const NavbarTop = () => {
           </div>
         </div>
         <div className="flex gap-x-10">
-          <div>
+          {/* <div>
             <button
               type=""
               className="text-[#C2D7EF] bg-[#FF0000] font-semibold px-[22px] py-5 font-sans hover:text-[#002147] duration-500 ease-in-out uppercase"
             >
               Mobile Website
             </button>
-          </div>
+          </div> */}
           <SocialSite />
         </div>
       </div>
