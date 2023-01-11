@@ -1,0 +1,25 @@
+.content-university {
+  position: relative;
+}
+
+.content-img {
+ 
+  box-shadow: 2px 2px 10px 1px #002147;
+}
+
+.animate-div {
+  background-color: #002147;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.content-university:hover .animate-div {
+  width: 100px;
+  opacity: 1;
+}

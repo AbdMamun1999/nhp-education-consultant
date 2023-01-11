@@ -46,12 +46,16 @@ const ChooseCountry = () => {
   return (
     <div>
       <div>
-        <div>
-          <div>
-            <h2>Choose Your Country</h2>
+        <div className="flex flex-col lg:flex-row justify-between items-center w-[80%] mx-auto py-16">
+          <div className="flex-1">
+            <div>
+              <h2 className="w-[500px] text-4xl font-bold text-primary border-r-2 border-blue">
+                Choose Your Country
+              </h2>
+            </div>
           </div>
-          <div>
-            <p>
+          <div className="flex-1">
+            <p className="text-xl">
               NHP processes Student Visa, Student Spouse Visa and Parents
               Visitors Visa for UK, USA, Canada, Australia and Malaysia.
             </p>
