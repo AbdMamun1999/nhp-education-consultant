@@ -8,23 +8,23 @@ import SocialSite from "./SocialSite";
 
 const NavbarTop = () => {
   return (
-    <div className="bg-[#002147] py-5">
-      <div className="w-[78%] mx-auto flex flex-col lg:flex-row justify-between">
-        <div className="flex items-center">
+    <div className="bg-[#002147] py-3 lg:py-5">
+      <div className="w-[90%] lg:w-[78%] mx-auto flex lg:flex-row justify-between">
+        <div className="flex flex-row lg:items-center">
           <div className="flex items-center ">
             <span>
               <MdCall color="#C2D7EF" />
             </span>
-            <p className="text-[14px] px-[20px] border-r-2 text-[#C2D7EF] font-sans tracking-wider clear-left flex flex-col lg:flex-row">
+            <p className="w-full text-[14px]  px-[20px] lg:border-r-2 text-[#C2D7EF] font-sans tracking-wider clear-left flex lg:flex-row">
               <span>Phone :</span> <span>+8801755707070;</span>
               <span>+8801715322220</span>
             </p>
           </div>
-          <div className="flex items-center pl-[20px]">
+          <div className="hidden lg:flex items-center lg:pl-[20px]  lg:visible">
             <span>
               <BsFillClockFill color="#C2D7EF" />
             </span>
-            <p className="px-[20px] text-[#C2D7EF] font-sans tracking-wider text-[14px]">
+            <p className="px-[20px] text-[#C2D7EF] font-sans tracking-wider lg:text-[14px]">
               We are open: Sat - Thu: 11 am - 8 pm
             </p>
           </div>
