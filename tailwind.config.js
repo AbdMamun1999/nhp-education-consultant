@@ -18,6 +18,9 @@ module.exports = {
         "slider-image-two": "src/assests/banner/image-slider-2.webp",
         "slider-image-three": "src/assests/banner/image-slider-3.jpg",
       },
+      boxShadow: {
+        "2px": "0px 0px 2px 0px rgb(108 108 108 / 25%)",
+      },
     },
   },
 };
